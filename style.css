@@ -48,6 +48,15 @@ footer {
     color: #ffffff;
 }
 
+/* .link-cepat {
+    margin: auto;
+} */
+
+.link-cepat {
+    padding-left: 15px; /* Adjust padding as needed */
+    padding-right: 15px; /* Adjust padding as needed */
+}
+
 /* #informasi {
     text-align: right;
 }

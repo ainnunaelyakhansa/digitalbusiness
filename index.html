@@ -127,7 +127,7 @@
           <div class="row justify-content-center">
             <div class="card mb-3 mt-3" style="max-width: 75%;">
               <div class="row">
-                <div class="col mt-3 mb-3">
+                <div class="col d-flex justify-content-center mt-3 mb-3">
                   <img src="Gallery/time.png" class="img-fluid rounded-start" alt="...">
                 </div>
                 <div class="col-md-9 mt-3 mb-3">
@@ -146,7 +146,7 @@
           <div class="row justify-content-center">
             <div class="card mb-3 mt-3" style="max-width: 75%;">
               <div class="row">
-                <div class="col mt-3 mb-3">
+                <div class="col d-flex justify-content-center mt-3 mb-3">
                   <img src="Gallery/time.png" class="img-fluid rounded-start" alt="...">
                 </div>
                 <div class="col-md-9 mt-3 mb-3">
@@ -165,7 +165,7 @@
           <div class="row justify-content-center">
             <div class="card mb-3 mt-3" style="max-width: 75%;">
               <div class="row">
-                <div class="col mt-3 mb-3">
+                <div class="col d-flex justify-content-center mt-3 mb-3">
                   <img src="Gallery/time.png" class="img-fluid rounded-start" alt="...">
                 </div>
                 <div class="col-md-9 mt-3 mb-3">
@@ -196,56 +196,53 @@
     <section id="schedule">
       <div class="container pb-3 text-light">
         <h2 class="text-center pt-3 mb-4">Jadwal Perkuliahan</h2>
-        <table class="table table-secondary table-striped table-bordered text-center">
-          <thead>
-            <tr>
-              <th scope="col">No.</th>
-              <th scope="col">Hari</th>
-              <th scope="col">Jam (Sesi)</th>
-              <th scope="col">Mata Kuliah</th>
-              <th scope="col">Jenis Mata Kuliah</th>
-              <th scope="col">Nama Dosen Pengampu</th>
-              <th scope="col">Ruangan</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>Senin</td>
-              <td>07.00 (Sesi 1)</td>
-              <td>Digital Business</td>
-              <td>Teori</td>
-              <td>Nuri Cahyono, M.Kom</td>
-              <td><a href="#">Daring.01.01</a></td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>Senin</td>
-              <td>09.00 (Sesi 2)</td>
-              <td>Digital Business</td>
-              <td>Teori</td>
-              <td>Nuri Cahyono, M.Kom</td>
-              <td>04.04.04</td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="table-responsive">
+          <table class="table table-secondary table-striped table-bordered text-center">
+            <thead>
+              <tr>
+                <th scope="col">No.</th>
+                <th scope="col">Hari</th>
+                <th scope="col">Jam (Sesi)</th>
+                <th scope="col">Mata Kuliah</th>
+                <th scope="col">Jenis Mata Kuliah</th>
+                <th scope="col">Nama Dosen Pengampu</th>
+                <th scope="col">Ruangan</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Senin</td>
+                <td>07.00 (Sesi 1)</td>
+                <td>Digital Business</td>
+                <td>Teori</td>
+                <td>Nuri Cahyono, M.Kom</td>
+                <td><a href="#">Daring.01.01</a></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Senin</td>
+                <td>09.00 (Sesi 2)</td>
+                <td>Digital Business</td>
+                <td>Praktikum</td>
+                <td>Nuri Cahyono, M.Kom</td>
+                <td>04.04.04</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </section>
     <!-- Tabel Jadwal Perkuliahan -->
 
     <!-- Card Link Cepat -->
-    <h2 class="text-center mt-5 mb-3">Jadwal Perkuliahan</h2>
-    <div id="carouselExampleFade" class="carousel slide mt-4 mb-3">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="row mb-3">
-            <div class="row justify-content-center row-cols-1 row-cols-md-4">
-              <div class="col">
+    <h2 class="text-center mt-5">Link Cepat</h2>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="container mt-4">
+        <div class="carousel-inner">
+          <div class="carousel-item active link-cepat">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-4">
                 <div class="card h-100">
                   <img src="Gallery/gedung1.jpg" class="card-img-top" alt="...">
                   <div class="card-body mt-1">
@@ -257,7 +254,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="col-12 col-md-4 d-none d-md-block">
                 <div class="card h-100">
                   <img src="Gallery/gedung1.jpg" class="card-img-top" alt="...">
                   <div class="card-body mt-1">
@@ -269,7 +266,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="col-12 col-md-4 d-none d-md-block">
                 <div class="card h-100">
                   <img src="Gallery/gedung1.jpg" class="card-img-top" alt="...">
                   <div class="card-body mt-1">
@@ -283,11 +280,9 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row mb-3">
-            <div class="row justify-content-center row-cols-1 row-cols-md-4">
-              <div class="col">
+          <div class="carousel-item link-cepat">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-4">
                 <div class="card h-100">
                   <img src="Gallery/gedung2.jpg" class="card-img-top" alt="...">
                   <div class="card-body mt-1">
@@ -299,7 +294,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="col-12 col-md-4 d-none d-md-block">
                 <div class="card h-100">
                   <img src="Gallery/gedung2.jpg" class="card-img-top" alt="...">
                   <div class="card-body mt-1">
@@ -311,7 +306,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="col-12 col-md-4 d-none d-md-block">
                 <div class="card h-100">
                   <img src="Gallery/gedung2.jpg" class="card-img-top" alt="...">
                   <div class="card-body mt-1">
@@ -340,11 +335,13 @@
 
     <!-- Footer -->
     <footer class="mt-5 pt-5 pb-3">
+      <div class="d-flex justify-content-center">
+        <img src="Gallery/Logo.png" alt="" class="footer-logo">
+      </div>
+      <h5 class="mt-2 text-center text-light"><strong>Universitas Contoh Indonesia</strong></h5>
       <div class="container">
         <div class="row justify-content-center text-light">
           <div class="col-md-4">
-            <img src="Gallery/Logo.png" alt="" class="footer-logo">
-            <h5 class="mt-2"><strong>Universitas Contoh Indonesia</strong></h5>
             <h6 class="mt-5">Jalan Pendidikan No. 123, Kota Ilmu, Provinsi, 12345</h6>
             <h6>Telp: (021) 123-4567</h6>
             <a href="#" class="link-underline-secondary">
@@ -396,7 +393,7 @@
         </div>
         <div class="row justify-content-center text-light">
           <div class="col text-center">
-            <h6 class="mt-5"><strong>Copyright @2024 Universitas Contoh Indonesia</strong></h6>
+            <h6 class="mt-5">Copyright @2024 Universitas Contoh Indonesia</h6>
             <hr>
           </div>
         </div>
