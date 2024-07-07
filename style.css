@@ -1,0 +1,57 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    background-color: #DBDBDB;
+  }
+
+.navbar-toggler {
+    padding: 0.5vmin 1vmin; /* Adjust padding for smaller button size */
+    font-size: 1vmin; /* Adjust font size for smaller icon */
+    }
+
+.navbar-toggler-icon {
+    width: 4vmin; /* Adjust width for smaller icon */
+    height: 4vmin; /* Adjust height for smaller icon */
+    }
+
+.univ-logo {
+    height: 3vmax;
+    width: 3vmax;
+}
+
+.profile-pic {
+    height: 3vmax;
+    width: 3vmax;
+}
+
+#schedule {
+    background-color: #000000;
+}
+
+table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+footer {
+    background-color: #000000;
+}
+
+.footer-logo {
+    height: 3vmax;
+    width: 3vmax;
+}
+
+.footer-contact {
+    color: #ffffff;
+}
+
+/* #informasi {
+    text-align: right;
+}
+
+#layanan-bantuan {
+    text-align: right;
+} */
